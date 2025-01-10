@@ -1,0 +1,63 @@
+@import url('./_fonts/fonts.css');
+
+.disabled {
+    display: none;
+}
+
+.blacked {
+    opacity: 50%;
+}
+
+.guguzaza {
+    background-color: rgb(40, 135, 118);
+    color: #fff;
+    text-shadow: 3px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.guguzaza__text {
+    font-size: 60px;
+    text-align: center;
+}
+
+.guguzaza__button {
+    width: 200px; 
+    height: 50px;
+    background-color: orange;
+    font-size: 16pt;
+}
+
+.guguzaza__button:hover {
+    cursor: pointer;
+    background-color: rgb(254, 186, 60);
+}
+
+.easter-egg {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 30px 30px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.easter-egg__gif {
+    border-radius: 10px;
+}
+
+.easter-egg__cross {
+    position: absolute;
+    top: -40px;
+    right: -100px;
+}
+
+.easter-egg__cross:hover {
+    cursor: pointer;
+}

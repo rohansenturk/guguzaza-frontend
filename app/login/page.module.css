@@ -1,0 +1,81 @@
+@import url('../_fonts/fonts.css');
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/denis.jpg');
+}
+
+.input {
+    height: 30px;
+    max-width: 300px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px
+}
+
+.button {
+    font-family: HomeVideo;
+    background-color: black;
+    border: 4px ridge black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 4px ridge white;
+    color: black;
+}
+
+.register_button {
+    background-color: gray;
+}
+
+.tupa_sobaka {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 100px;
+    left: 15%;
+    padding: 20px 10px;     
+}
+
+.tupa_sobaka:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.272);
+    color: rgb(0, 123, 255);
+}
+
+.tupa_sobaka:hover .tupa_sobaka__caption {
+    color: rgb(132, 0, 255);
+    text-shadow: 2px 2px 1px white;
+}
+
+.tupa_sobaka__caption {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}

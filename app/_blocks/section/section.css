@@ -1,0 +1,28 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: black;
+}
+
+.section__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__left {
+    align-content: right;
+    align-items: last baseline;
+    text-align: right;
+}
+
+.section__right {
+    align-content: left;
+    align-items: first baseline;
+    text-align: left;
+}

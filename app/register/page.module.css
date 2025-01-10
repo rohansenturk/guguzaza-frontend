@@ -1,0 +1,39 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.button {
+    font-family: HomeVideo;
+    background-color: black;
+    border: 4px ridge black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 4px ridge white;
+    color: black;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.positioned {
+    position: relative;
+}
+
+.selected {
+    border: 1px solid rgb(0, 196, 0);
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+@import url('../_fonts/fonts.css');
+
+.button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-family: HomeVideo;
+    background-color: orange;
+    font-size: 16pt;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 177, 32)
+}

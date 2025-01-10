@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'P95';
+    src:
+        url('./p95-cyr/P95-CYR-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gel';
+    src: 
+        url('./gel/GelFont-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Konkovo';
+    src: url('./konkovo/Konkovo.otf');
+}
+
+@font-face {
+    font-family: 'HomeVideo';
+    src:
+        url('./home-video/HomeVideo-Regular.woff2');
+}

@@ -1,0 +1,7 @@
+@import url('../../fonts/fonts.css');
+
+.root {
+    font-family: 'HomeVideo';
+    margin: 0 auto;
+    min-height: 100vh;
+}
